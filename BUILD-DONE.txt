@@ -1,0 +1,7 @@
+Agent Latency Profiler local build completed 2026-10-01
+Tests: 38 passed (pytest, 0.28 seconds).
+Local implementation commit: 1ea780654cfee5aac5024ebc4e12ec6368dff282
+Branch: main. This hash identifies the tested implementation; the following documentation commit records this build receipt.
+Demo: 0.767232 seconds overall, report process 0.268677 seconds.
+
+Built a deterministic CPU-only Python CLI with fixtures, run, report, stages and slow commands, pure validated aggregation, JSON and JSONL input, integer duration totals, nearest-rank P95, exact slow-record traceability, atomic output writes and explicit real/synthetic provenance. The 200-record labelled fixture reconciles to 66000 ms with all four planted slow stages found and zero false positives. Adversarial and acceptance tests pass, documentation and lessons are included, and no network calls or publishing were performed. The two-week real-use improvement hook and final verdict remain pending measured trial evidence. Git commits use the repository-local Codex Agent identity because no author was configured. Windows user Scripts is not on PATH; README documents adding it or using python -m agent_latency_profiler.cli.
